@@ -1,11 +1,12 @@
-h1 {
-    font-size: 50px;
+.header1 {
+    font-size: 40px;
     color: white;
     margin: 0;
 }
 
-p {
+.para1 {
     color: white;
+    font-size: 15px;
 }
 
 body {
@@ -35,4 +36,95 @@ body {
 .container {
     text-align: center;
     padding-top: 15%;
+}
+
+input {
+    font-size: 25px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+.donationamount {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.headerdonation {
+    font-size: 40px;
+}
+
+.paradonation {
+    text-align: center;
+    font-size: 15px;
+}
+
+.button1 {
+    padding: 30px 40px;
+    opacity: 100%;
+    margin: 20px 30px;
+    border-style: none;
+    font-size: large;
+
+}
+
+.button2 {
+    color: rgb(255, 131, 118);
+    padding: 30px 40px;
+    margin: 10px 30px;
+    background-color: pink;
+    border-style: outset;
+    border-color: rgb(255, 131, 118);
+    font-size: large;
+
+}
+
+
+
+.donateplanh1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.paradonateplan {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+
+
+.divdonateplan {
+    width: 1200px;
+    height: 500px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#foodsection {
+    float: left;
+    width: 390px;
+    height: 180px;
+    background-color: aquamarine;
+}
+
+#sheltersection {
+    float: left;
+    width: 390px;
+    height: 180px;
+    background-color: pink;
+    margin-left: 10px;
+
+}
+
+#edusection {
+    float: right;
+    width: 390px;
+    height: 180px;
+    background-color: burlywood;
+
+
 }
