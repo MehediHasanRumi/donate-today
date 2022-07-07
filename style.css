@@ -175,3 +175,26 @@ footer p {
     color: aliceblue;
     text-align: center;
 }
+
+.extrapart {
+    display: flex;
+}
+
+.divextra {
+    width: 50%;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.divextra img {
+    width: 70%;
+}
+
+.extrah1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+h3 {
+    text-align: center;
+}
